@@ -1,0 +1,31 @@
+{
+	"version": "2.3.1",
+	"title": "Media Type Map",
+	"description": "A simple lookup from file name/extension to MIME/media type, generated from Apache's mime.types.",
+	"authors": [ "alexr" ],
+	"packOptions": {
+		"requireLicenseAcceptance": false,
+		"tags": [ "MIME", "Media",  "Types" ],
+		"projectUrl": "https://github.com/HelmGlobal/MimeTypeMap",
+		"repository": {
+			"type": "git",
+			"url": "https://github.com/HelmGlobal/MimeTypeMap"
+		}
+	},
+
+	"dependencies": {
+		"Microsoft.NETCore.App": {
+			"type": "platform",
+			"version": "1.0.0-rc2-3002702"
+		}
+	},
+
+	"frameworks": {
+		"netstandard1.0": {
+			"imports": [
+				"dnxcore50",
+				"portable-net451+win8+win81+win10"
+			]
+		}
+	}
+}

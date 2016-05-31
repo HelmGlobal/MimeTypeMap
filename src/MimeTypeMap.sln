@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MimeTypes", "MimeTypes\MimeTypes.csproj", "{D54FB6F6-9042-4925-BFC5-947A363F0849}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MimeTypes", "MimeTypes\MimeTypes.xproj", "{D54FB6F6-9042-4925-BFC5-947A363F0849}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MimeTypeMapTest", "MimeTypeMapTest\MimeTypeMapTest.csproj", "{62EFD1E4-73CF-46E3-AF84-DB91F14DCA6E}"
 EndProject
