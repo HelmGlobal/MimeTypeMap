@@ -57,6 +57,8 @@ Pass in a mime type and get an extension back. If the mime type is not registere
 
 ## Changelog
 
+2.1.1 - May 31, 2016 - Updated code to support running on dotnet-core.
+
 2.1.0 - August 14, 2015 - Refactor and add GetExtension method.
 
 1.2.0 - April 22, 2015 - Breaking changes due to refactorings. You'll need to change namespace after this update. Also added OpenOffice related mime types, in a few cases overwriting rarely used MS mime types for the same extensions.
