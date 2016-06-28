@@ -1,5 +1,5 @@
 {
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"title": "Media Type Map",
 	"description": "A simple lookup from file name/extension to MIME/media type, generated from Apache's mime.types.",
 	"authors": [ "alexr" ],
@@ -18,10 +18,7 @@
 	"frameworks": {
 		"netcoreapp1.0": {
 			"dependencies": {
-				"Microsoft.NETCore.App": {
-					"type": "platform",
-					"version": "1.0.0"
-				}
+				"NETStandard.Library": "1.6.0"
 			},
 			"imports": [
 				"dnxcore50",
